@@ -1,0 +1,45 @@
+form {
+ padding: 20px;
+ border: 2px solid black;
+ display: flex;
+ flex-direction: column;
+ width: 20%;
+ margin: 0 auto;
+ margin-top: 100px;
+ border-radius: 20px;
+}
+
+label {
+ margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ font-size: 16px;
+ margin-top: 5px;
+ margin-bottom: 15px;
+}
+
+button[type="submit"] {
+ background-color: black;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 25px;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+button[type="submit"]:hover {
+ background-color: gray;
+ color: black;
+}
+
+.link{
+ margin-top: 10px;
+ font-size: 18px;
+}
